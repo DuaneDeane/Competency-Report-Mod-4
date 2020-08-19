@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    
+}
+        h4,h5,h6{
+            background-color: black;
+            color:yellow;
+            widows: 400px;
+        }
+
+        p{
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:#440937;
+        }
+        /* id selector*/
+        #second-p{
+            background-color: #6e1717;
+            color: #aa590c;
+            font-size: 12px;
+        }
+        /* class selector*/
+        .btn{
+            background-color: rgb(45, 8, 112);
+            color: white;
+            text-align: center;
+        }
+/* utilities */
+.center{
+    text-align: center;
+}
+.container-80{
+    width:80%;
+}
+
+/* list*/
+ul.test-ul{
+    list-style-type: square;
+    background-color: aqua;
+}
+ul.test-ul li{
+    display: inline-block;
+    background-color: navy;
+    margin:1px;
+    padding:5px;
+    border:5px solid grey;
+}
+
+ul.test-ul li:hover{
+    background-color: hotpink;
+    color: gold;
+    font-size: 20px;
+}
+
+nav{
+    background-color: navy;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding:5px;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    color: greenyellow;
+}
